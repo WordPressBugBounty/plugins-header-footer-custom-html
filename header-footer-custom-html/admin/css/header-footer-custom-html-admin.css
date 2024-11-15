@@ -1,0 +1,41 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#hfch_header_html, #hfch_footer_html, #hfch_custom_css, #hfch_custom_script{width:100% !important;max-width:50em;min-height:200px;}
+.toplevel_page_header-footer-custom-html .form-table th{width:300px;}
+.hfch_header_page_field_id, .hfch_header_post_field_id, .hfch_footer_page_field_id, .hfch_footer_post_field_id, .hfch_scriptcss_page_field_id, .hfch_scriptcss_post_field_id { display:none; }
+.hfch_header_bg_image .upload, .hfch_footer_bg_image .upload{display:flex;flex-direction:column}
+.hfch_header_bg_image .upload img, .hfch_footer_bg_image .upload img{max-width:100px !important;margin-bottom:10px;}
+#hfch_page_record_item_id,#hfch_post_record_item_id{display:none;}
+.hfch_header_html_bg_repeat, .hfch_header_html_bg_position, .hfch_header_html_bg_attachment, .hfch_header_html_bg_size, .hfch_footer_html_bg_position, .hfch_footer_html_bg_repeat, .hfch_footer_html_bg_attachment, .hfch_footer_html_bg_size{display:none;}
+.hfch-header-bg-image-background-size-row, .hfch-header-bg-image-background-attachment-row, .hfch-header-bg-image-background-position-row, .hfch-header-bg-image-background-repeat-row{display:none;}
+.hfch-footer-bg-image-background-size-row, .hfch-footer-bg-image-background-attachment-row, .hfch-footer-bg-image-background-position-row, .hfch-footer-bg-image-background-repeat-row{display:none;}
+.hfch-img-remove-single {float: left;cursor:pointer;margin-right:5px;font-size: 1.2rem; border: 1px solid; line-height: 12px; padding: 5px; padding-top: 2px;background: #444;color: #fff;}
+.enweby-plugin-title{border-left:5px solid orange; display: flex;  letter-spacing:1px;font-size:1.5rem; background: radial-gradient(white, #f8f8f8);  padding: 12px 10px;  line-height: 25px;  max-width: 95%;}
+.enweby-plugin-title img{height:25px;margin-right:15px;}
+.enweby-popular-products{background:url('../images/62624-sm.jpg') !important;padding: 10px; border-radius: 5px; max-width: 95%; text-align:center;background-size:cover !important;}
+.enweby-popular-products  label {margin-bottom:30px;color:#CF3F57;font-size:1.4rem;font-weight:600;float:left;width:100%;}
+.enweby-popular-products ul{margin:0;}
+.enweby-popular-products ul li{list-style:none;display:inline-block;max-width:142px;margin-bottom:0;}
+.enweby-popular-products ul li p{font-size:14px;font-weight:500;}
+.enweby-popular-products .enweby-plugins img{width:85px;}
+.CodeMirror { border: 1px solid #ddd; padding:0;border-radius:5px;}
+.hfch-select{ border: 1px solid #ddd  !important; padding:5px 10px !important; }
+.enwb-row .block-row{display:flex;justify-content:space-between;}
+.enwb-row-section .block-row .label-p{margin-bottom:8px !important;}
+.enwb-row-section .block-row .label-p{font-size:16px;font-weight:600;}
+.enwb-row-right{width:70%;}
+.enwb-row-section{background:#fbfbfb;padding:10px 15px;padding-bottom:30px;margin-bottom:20px;border:1px solid #aaa;position:relative;z-index: 99;}
+.enwb-tabs ul{margin-bottom:2px;}
+.enwb-tabs li {display: inline-block; margin-right: 10px;margin-top: 10px;}
+.enwb-tabs a{padding: 10px; background: #fff; color: #000; text-decoration: none; border: 1px solid #ddd;border-bottom:none!important;position: relative;z-index: 98;}
+.enwb-tabs a.active{padding:11px 10px;border:1px solid #aaa;border-bottom:none!important; background: #fbfbfb;z-index: 100;}
+.enwb-tabs a:focus{box-shadow: unset !important;}
+.enwb-tab-content{visibility:hidden;position:absolute;z-index:1;}
+.tab-content-active{visibility:visible;position:relative;z-index:99;}
+.enwb-row-section .select-box-medium{width:100%;max-width:400px;}
+.hfch-html-img-display{float:left;margin-right:10px;}
+.hfch-image-upload-wrapper{float:left;width:100%;margin-bottom:15px;}
+.post-type-enwb_hfch_settings #postexcerpt{display:none;}
+#hfch_custom_script, .hfch-script-textarea{width:100%;border:1px solid #ddd;min-height:200px;padding:10px;color:#555;}
