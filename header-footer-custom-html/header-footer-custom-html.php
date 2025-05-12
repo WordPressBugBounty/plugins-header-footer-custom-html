@@ -15,7 +15,7 @@
  * Plugin Name:       Header Footer Custom Html
  * Plugin URI:        https://wordpress.org/plugins/header-footer-custom-html
  * Description:       A lightweight plugin by Enweby. This plugin enables admin to add custom html in either header or footer or both. This plugin is a great tool to add notifications like Ongoing sale notification, cookie use notification, possibility is endless.
- * Version:           2.0.1
+ * Version:           2.0.2
  * Author:            Enweby
  * Author URI:        https://www.enweby.com/
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 			if ( ! isset( $enwbhfch_fs ) ) {
 				// Include Freemius SDK.
-				require_once dirname(__FILE__) . '/freemius/start.php';
+				require_once dirname(__FILE__) . '/vendor/freemius/start.php';
 
 				$enwbhfch_fs = fs_dynamic_init( array(
 					'id'                  => '13542',
@@ -102,7 +102,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'HEADER_FOOTER_CUSTOM_HTML_VERSION', '2.0.1' );
+define( 'HEADER_FOOTER_CUSTOM_HTML_VERSION', '2.0.2' );
 
 /**
  * Plugin base name.
@@ -126,7 +126,7 @@ define( 'HEADER_FOOTER_CUSTOM_HTML_PLUGIN_NAME', 'header-footer-custom-html' );
 /**
  * Plugin base dir path.
  */
-define( 'HEADER_FOOTER_CUSTOM_HTML_PLUGIN_VERSION', '2.0.1' );
+define( 'HEADER_FOOTER_CUSTOM_HTML_PLUGIN_VERSION', '2.0.2' );
 
 /**
  * The code that runs during plugin activation.
