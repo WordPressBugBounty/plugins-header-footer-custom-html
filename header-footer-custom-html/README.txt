@@ -4,9 +4,9 @@ Donate link: https://www.enweby.com/donate-now/
 Tags: header script, header footer, header footer CSS, header footer html, header footer custom html, custom css / script in header, custom html in header or footer, custom html in footer, custom script in header or footer.
 Requires PHP: 5.6
 Requires at least: 4.8
-Tested up to: 6.8
+Tested up to: 7.0
 Stable tag: trunk
-Version: 2.0.2
+Version: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,10 @@ A. Just go to [support page link](https://www.enweby.com/product/header-footer-c
 
 == Changelog ==
 
+= 2.0.3 =
+* Compatibility with wp version 7.x+.
+* Minor issue fixed.
+
 = 2.0.2 =
 * Compatibility with wp version 6.8+.
 
@@ -207,5 +211,5 @@ A. Just go to [support page link](https://www.enweby.com/product/header-footer-c
 * Initial Release.
 
 == Upgrade Notice ==
-= 2.0.2 =
-* Version 2.0.2 version released. Upgrade to get most out of it
+= 2.0.3 =
+* Version 2.0.3 version released. Upgrade to get most out of it
